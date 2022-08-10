@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+
+*{
+     margin: 0;
+     padding: 0;
+ 
+}
+
+#img_container{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 30px;    
+}
+
+#img_container_image{
+    width: 500px;
+    height: 428px;
+}
+
+#section_main_page h1{
+    text-align: center; 
+    margin-top:10px; 
+    color: #455A63;
+    border: 3px solid #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 73px;
+    font-family: 'inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#section_main_page_heading{
+    display: flex; 
+    justify-content: 
+    center;
+    align-items: center;
+}
+
+#section_main_page_heading_button
+{
+    margin-top:10px;
+    width:190px; 
+    height:64px; 
+    background: #FFFFFF;
+    border: 3px solid #FF5353;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    transition: 0.5s all;
+    font-weight: 600;
+}
+
+#section_main_page_heading_button:hover
+{
+    background: #FF5353;
+    color: #FFFFFF;
+}
+
+
