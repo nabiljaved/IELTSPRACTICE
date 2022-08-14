@@ -81,6 +81,7 @@
     background-color: gray;
     margin: 5px;
     text-align: center;
+    color: #FFFFFF;
   }
   
   .main-menu li a {
@@ -103,16 +104,16 @@
     padding-bottom: 2px;
   }
   
-.main-menu li:hover {
+/* .main-menu li:hover {
     background-color: orangered;
     color: white;
     
-  }
+  } */
 
   .main-menu li:hover {
     background-color: orangered;
     color: white;
-    
+    cursor: pointer;    
   }
   
   /* .main-menu  {
@@ -121,3 +122,147 @@
   } */
 
 
+/*
+  container 1 css 
+*/
+
+
+.content{
+    display: none;
+}
+
+.show
+{
+    display: block;
+}
+
+#img_container{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 30px;    
+}
+
+#img_container_image{
+    width: 700px;
+    height: 400px;
+}
+
+#section_main_page h1{
+    text-align: center; 
+    margin-top:10px; 
+    color: #455A63;
+    border: 3px solid #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 73px;
+    font-family: 'inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#section_main_page_heading{
+    display: flex; 
+    justify-content: 
+    center;
+    align-items: center;
+}
+
+#section_main_page_heading_button
+{
+    margin-top:50px;
+    width:190px; 
+    height:64px; 
+    background: #FFFFFF;
+    border: 3px solid #FF5353;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    transition: 0.5s all;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#section_main_page_heading_button:hover
+{
+    background: #FF5353;
+    color: #FFFFFF;
+}
+
+/*
+  overflow CSS
+*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: silver; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+
+/*
+  over all Content CSS 
+*/
+
+html, body{
+  height: 100%;
+  overflow: hidden;
+}
+
+.content{
+  width: 100%;
+  height: 100%;
+}
+
+.left_side
+{
+  overflow-y: scroll;
+  flex-basis: 50%;
+  padding: 20px;
+}
+
+.right_side
+{
+  overflow-y: scroll;
+  flex-basis: 50%;
+  padding: 20px;
+}
+
+/*
+  Time controller 
+*/
+
+.time_controller
+{
+  background-color: bisque; 
+  width: 200px;
+  height: 50px;
+  position: absolute; 
+  right: 10px; 
+  bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  border-radius: 50px;
+}
+
+.time_controller > a i 
+{
+  color:maroon; 
+  border: none;
+  cursor: pointer;
+}
